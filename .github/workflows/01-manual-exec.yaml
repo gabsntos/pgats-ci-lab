@@ -8,7 +8,7 @@ name: 'Execução manual'
 # Regras de disparo. Triggers
 # Gatilho de execução manual --- workflow_dispath
 on:
-  workflow_dispath:
+  workflow_dispath
 
 # trabalhos/tarefas dentro do pipeline = jobs
 jobs:
