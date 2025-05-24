@@ -14,8 +14,8 @@ on:
 jobs:
   e2e-tests:
 
-  # maquina de o job vai executar / https://github.com/actions/runner-images
-  runs-on: ubuntu-latest
+    # maquina de o job vai executar / https://github.com/actions/runner-images
+    runs-on: ubuntu-latest
 
   # passos do script de build - steps
   steps:
