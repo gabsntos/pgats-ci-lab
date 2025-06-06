@@ -5,7 +5,7 @@ name: 'Execução por deploy'
 # Gatilho de execução manual --- workflow_dispath
 on:
   workflow_run:
-    workflow: [Execução manual]
+    workflows: ['Execução manual']
     types:
       - completed
 
