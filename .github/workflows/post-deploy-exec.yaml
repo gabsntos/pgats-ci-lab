@@ -1,11 +1,11 @@
 # nome do nosso pipeline
-name: 'Execução por deploy'
+name: "Execução por deploy"
 
 # Regras de disparo. Triggers
 # Gatilho de execução manual --- workflow_dispath
 on:
   workflow_run:
-    workflow: ['Execução manual']
+    workflow: ["Execução manual"]
     types:
       - completed
 
