@@ -3,7 +3,7 @@
 # CI de nível 1 - Disparo manual a partir de 1 clique
 
 # nome do nosso pipeline
-name: 'Execução manual'
+name: 'Execução agendada'
 
 # Regras de disparo. Triggers
 # Gatilho de execução manual --- workflow_dispath
