@@ -47,7 +47,7 @@ jobs:
           path: ./playwright-report
   deploy:
     runs-on: ubunto-latest
-    needs: [testes-e2e]
+    needs: [testes-e2e, unidade]
     steps:
       - name: simulacao de deploy
         run: echo "simulando o deploy com sucesso"
