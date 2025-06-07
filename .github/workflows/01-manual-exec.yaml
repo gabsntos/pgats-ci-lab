@@ -13,11 +13,10 @@ on:
 # trabalhos/tarefas dentro do pipeline = jobs
 jobs:
   e2e-tests:
-
     # maquina de o job vai executar / https://github.com/actions/runner-images
     runs-on: ubuntu-latest
 
-  # passos do script de build - steps
+    # passos do script de build - steps
     steps:
       # clone do projecto
       - uses: actions/checkout@v4
@@ -30,7 +29,7 @@ jobs:
       # instalação do yarn
       - name: Instalando Yarn...
         run: npm install -g yarn
-      
+
       #instalação das dependecias
       - name: Instalando dependencies...
         run: yarn

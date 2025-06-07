@@ -1,8 +1,8 @@
-name: "Execução agendada"
+name: 'Execução agendada'
 
 on:
   schedule:
-    - cron: "0 6 * * 1"  # run every monday at 06:00
+    - cron: '0 6 * * 1' # run every monday at 06:00
 
 jobs:
   e2e-tests:
