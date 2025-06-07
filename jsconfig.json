@@ -6,18 +6,12 @@
     "target": "es2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "lib": [
-      "es2022",
-      "DOM"
-    ],
+    "lib": ["es2022", "DOM"],
     "strict": true,
     "strictNullChecks": false,
     "allowJs": true,
     "checkJs": true,
     "maxNodeModuleJsDepth": 0
   },
-  "include": [
-    "src",
-    "test"
-  ]
+  "include": ["src", "test"]
 }
