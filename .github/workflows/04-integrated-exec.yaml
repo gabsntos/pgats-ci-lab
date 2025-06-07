@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: instalando yarn
-        run: npm install yarn
+        run: npm install yarn --force
       - name: instalando yarn dependencies
         run: yarn
       - name: executando testes de unidade
