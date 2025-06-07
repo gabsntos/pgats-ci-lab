@@ -12,6 +12,8 @@ jobs:
         run: npm install yarn --force
       - name: instalando yarn dependencies
         run: yarn
+      - name: executando prettier
+        run: yarn prettier . --write
       - name: checando padronizacao do codigo
         run: yarn lint
   unidade:
