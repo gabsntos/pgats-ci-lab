@@ -16,6 +16,7 @@ jobs:
         run: yarn lint
   unidade:
     runs-on: ubuntu-latest
+    needs: [inspecao]
     steps:
       - uses: action/checkout@v4
       - name: instalando yarn
@@ -46,6 +47,7 @@ jobs:
           path: ./playwright-report
   deploy:
     runs-on: ubunto-latest
+    needs: [testes-e2e]
     steps:
       - name: simulacao de deploy
         run: echo "simulando o deploy com sucesso"
