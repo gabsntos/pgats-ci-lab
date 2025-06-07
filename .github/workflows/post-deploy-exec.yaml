@@ -15,7 +15,7 @@ jobs:
     # maquina de o job vai executar / https://github.com/actions/runner-images
     runs-on: ubuntu-latest
 
-    if: ${{ github.event.workflow_run.conclusion == 'sucess' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     # passos do script de build - steps
     steps:
